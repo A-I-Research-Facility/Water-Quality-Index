@@ -275,12 +275,14 @@ dt = pd.concat([data, dt], axis = 1)
 
 #model accuracy
 from sklearn import metrics
+from sklearn.metrics import r2_score
+acc = r2_score(y, y_pred) * 100
 final_mse = np.sqrt(metrics.mean_squared_error(y, y_pred))
 
 #display stats
 print("\n\nStats :-")
 print("1) Mean squared error : {:.2f}".format(init_mse))
-print("2) Accuracy : {:.2f}".format(final_mse))
+print("2) Accuracy : {:.2f} %".format(acc))
 print("3) Gradient Descent : {:.2f}, {:.2f}".format(theta[0], theta[1]))
 
 #plotting predicted vs actual value
