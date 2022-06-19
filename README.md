@@ -1,7 +1,5 @@
 # Water Quality Index
 Basic program to demonstrate linear regression model of sklearn library.
-
-This is a very basic machine learning program to try out linear regression.
 <br>
 <br>
 
