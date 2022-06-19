@@ -3,6 +3,12 @@ Basic program to demonstrate linear regression model of sklearn library.
 <br>
 <br>
 
+## Requirements
+* sklearn
+* matplotlib
+* pandas
+* numpy
+
 ## Data
 `water.xlsx` contains information about water minelas in several locations for different dates.
 <br>
