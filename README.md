@@ -4,7 +4,7 @@ Basic program to demonstrate linear regression model of sklearn library.
 <br>
 
 ### Data
-water.xlsx contains information about water minelas in several locations for different dates.
+`water.xlsx` contains information about water minelas in several locations for different dates.
 <br>
 <br>
 
